@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 
 const products = [
-  { slug: 'fresh-vegetables', title: 'Fresh Vegetables', image: '/images/product-vegetables.jpg' },
-  { slug: 'fresh-fruits', title: 'Fresh Fruits', image: '/images/product-fruits.jpg' },
-  { slug: 'green-leaf-sifter', title: 'Green Leaf Sifter', image: '/images/product-leaf-plates.jpg' },
-  { slug: 'palmyra-fibre', title: 'Palmyra Fibre', image: '/images/product-palmyra-fibre.jpg' },
-  { slug: 'groundnut', title: 'Groundnut', image: '/images/product-groundnut.jpg' },
+  { slug: 'fresh-vegetables', title: 'Fresh Vegetables', image: asset('images/product-vegetables.jpg') },
+  { slug: 'fresh-fruits', title: 'Fresh Fruits', image: asset('images/product-fruits.jpg') },
+  { slug: 'green-leaf-sifter', title: 'Green Leaf Sifter', image: asset('images/product-leaf-plates.jpg') },
+  { slug: 'palmyra-fibre', title: 'Palmyra Fibre', image: asset('images/product-palmyra-fibre.jpg') },
+  { slug: 'groundnut', title: 'Groundnut', image: asset('images/product-groundnut.jpg') },
 ]
 
 const process = [
@@ -21,7 +22,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-navy text-white">
         <img
-          src="/images/hero-ship.jpg"
+          src={asset('images/hero-ship.jpg')}
           alt="Container ship loaded with cargo sailing at sea"
           className="absolute inset-0 h-full w-full object-cover"
         />

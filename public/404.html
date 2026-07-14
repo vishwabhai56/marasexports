@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MARA&rsquo;s Overseas Exports & Co</title>
+    <script>
+      // GitHub Pages has no server-side rewrites, so a direct hit on a
+      // route like /products 404s. Stash the intended path and bounce to
+      // index.html, which restores it before React Router ever sees it.
+      var basePath = '/marasexports'
+      var path = location.pathname.slice(basePath.length) + location.search + location.hash
+      sessionStorage.setItem('spa-redirect', path)
+      location.replace(basePath + '/')
+    </script>
+  </head>
+  <body></body>
+</html>

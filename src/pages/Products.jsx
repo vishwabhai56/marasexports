@@ -1,29 +1,30 @@
 import { NavLink } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 
 const products = [
   {
     title: 'Fresh Vegetables',
-    image: '/images/product-vegetables.jpg',
+    image: asset('images/product-vegetables.jpg'),
     body: 'A range of fresh vegetables sourced and graded to order, packed for export in line with buyer specifications.',
   },
   {
     title: 'Fresh Fruits',
-    image: '/images/product-fruits.jpg',
+    image: asset('images/product-fruits.jpg'),
     body: 'Seasonal fresh fruit sourced directly from growers, sorted and packed to meet export quality standards.',
   },
   {
     title: 'Green Leaf Sifter',
-    image: '/images/product-leaf-plates.jpg',
+    image: asset('images/product-leaf-plates.jpg'),
     body: 'Natural leaf-based sifting and serving products, made from locally sourced leaves.',
   },
   {
     title: 'Palmyra Fibre',
-    image: '/images/product-palmyra-fibre.jpg',
+    image: asset('images/product-palmyra-fibre.jpg'),
     body: 'Palmyra palm fibre for brooms and allied products, sourced from local processors.',
   },
   {
     title: 'Groundnut',
-    image: '/images/product-groundnut.jpg',
+    image: asset('images/product-groundnut.jpg'),
     body: 'Quality-graded groundnut, cleaned and packed to order for export.',
   },
 ]
