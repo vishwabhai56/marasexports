@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 
-const COMPANY_EMAIL = 'vichuff0529@gmail.com'
+const COMPANY_EMAIL = 'mharbusiness123@gmail.com'
 
 export default function Contact() {
   const [searchParams] = useSearchParams()
@@ -152,13 +152,19 @@ export default function Contact() {
             <div className="py-2">
               <h3 className="font-display text-lg font-semibold text-navy">MARA&rsquo;s Overseas Exports &amp; Co</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate">
-                19 South Chidambara Nagar,<br />
-                Sankarnagar, Tirunelveli,<br />
-                Tamil Nadu &ndash; 627357, India
+                No. 62, Vasantham Avenue, Thirumal Nagar,<br />
+                Palayamkottai, Tirunelveli &ndash; 627007,<br />
+                Tamil Nadu, India
               </p>
               <a href={`mailto:${COMPANY_EMAIL}`} className="mt-4 block font-mono text-sm text-gold">
                 {COMPANY_EMAIL}
               </a>
+              <a href="tel:+919360072348" className="mt-1 block font-mono text-sm text-gold">
+                +91 93600 72348
+              </a>
+              <p className="mt-4 text-xs text-slate">
+                Attn: Maharaja &middot; GSTIN 33ACHFM9834F1Z2
+              </p>
             </div>
           </div>
         </div>

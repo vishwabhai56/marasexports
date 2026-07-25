@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(GIT_SSH_COMMAND='ssh -i C:\\\\Users\\\\ADMIN/.ssh/id_ed25519 -o IdentitiesOnly=yes' git push)"
+    ]
+  }
+}

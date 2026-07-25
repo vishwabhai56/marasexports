@@ -4,9 +4,15 @@ import { asset } from '../lib/asset.js'
 const products = [
   { slug: 'fresh-vegetables', title: 'Fresh Vegetables', image: asset('images/product-vegetables.jpg') },
   { slug: 'fresh-fruits', title: 'Fresh Fruits', image: asset('images/product-fruits.jpg') },
+  { slug: 'spices', title: 'Spices', image: asset('images/product-spices.jpg') },
+  { slug: 'chillies', title: 'Dried Red Chillies', image: asset('images/product-chillies.jpg') },
+  { slug: 'onions', title: 'Red Onions', image: asset('images/product-onions.jpg') },
+  { slug: 'moringa', title: 'Moringa (Drumstick)', image: asset('images/product-moringa.jpg') },
+  { slug: 'coconut', title: 'Coconut', image: asset('images/product-coconut.jpg') },
   { slug: 'green-leaf-sifter', title: 'Green Leaf Sifter', image: asset('images/product-leaf-plates.jpg') },
   { slug: 'palmyra-fibre', title: 'Palmyra Fibre', image: asset('images/product-palmyra-fibre.jpg') },
   { slug: 'groundnut', title: 'Groundnut', image: asset('images/product-groundnut.jpg') },
+  { slug: 'cotton-fabric', title: 'Cotton Fabric', image: asset('images/product-cotton-fabric.jpg') },
 ]
 
 const process = [
@@ -71,7 +77,7 @@ export default function Home() {
               <NavLink
                 key={p.slug}
                 to="/products"
-                className="group relative block h-64 overflow-hidden rounded-lg first:sm:col-span-2 first:lg:col-span-1"
+                className="group relative block h-64 overflow-hidden rounded-lg"
               >
                 <img
                   src={p.image}

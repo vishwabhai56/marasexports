@@ -33,27 +33,32 @@ export default function Footer() {
           <ul className="space-y-2.5 text-sm">
             <li>Fresh Vegetables</li>
             <li>Fresh Fruits</li>
-            <li>Green Leaf Sifter</li>
-            <li>Palmyra Fibre</li>
-            <li>Groundnut</li>
+            <li>Spices</li>
+            <li>Dried Red Chillies</li>
+            <li>Red Onions</li>
+            <li><NavLink to="/products" className="text-gold hover:text-white">View all products &rarr;</NavLink></li>
           </ul>
         </div>
 
         <div>
           <p className="eyebrow mb-4">Registered Office</p>
           <p className="text-sm leading-relaxed">
-            19 South Chidambara Nagar,<br />
-            Sankarnagar, Tirunelveli,<br />
-            Tamil Nadu &ndash; 627357, India
+            No. 62, Vasantham Avenue, Thirumal Nagar,<br />
+            Palayamkottai, Tirunelveli &ndash; 627007,<br />
+            Tamil Nadu, India
           </p>
-          <a href="mailto:vichuff0529@gmail.com" className="mt-3 block font-mono text-sm text-gold">
-            vichuff0529@gmail.com
+          <a href="mailto:mharbusiness123@gmail.com" className="mt-3 block font-mono text-sm text-gold">
+            mharbusiness123@gmail.com
+          </a>
+          <a href="tel:+919360072348" className="mt-1 block font-mono text-sm text-gold">
+            +91 93600 72348
           </a>
         </div>
       </div>
 
       <div className="container-px mx-auto flex max-w-7xl flex-col gap-2 border-t border-white/10 py-6 text-xs text-white/40 md:flex-row md:items-center md:justify-between">
         <span>&copy; {new Date().getFullYear()} MARA&rsquo;s Overseas Exports &amp; Co. All rights reserved.</span>
+        <span className="font-mono">GSTIN: 33ACHFM9834F1Z2</span>
       </div>
     </footer>
   )

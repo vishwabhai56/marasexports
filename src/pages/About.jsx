@@ -64,8 +64,8 @@ export default function About() {
         <div className="container-px mx-auto max-w-7xl">
           <p className="eyebrow mb-4">Registered Office</p>
           <h2 className="font-display text-2xl font-semibold text-navy md:text-3xl">
-            19 South Chidambara Nagar, Sankarnagar,<br className="hidden md:block" />
-            Tirunelveli, Tamil Nadu &ndash; 627357, India
+            No. 62, Vasantham Avenue, Thirumal Nagar, Palayamkottai,<br className="hidden md:block" />
+            Tirunelveli &ndash; 627007, Tamil Nadu, India
           </h2>
         </div>
       </section>

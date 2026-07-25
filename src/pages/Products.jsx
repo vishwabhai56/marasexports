@@ -27,6 +27,36 @@ const products = [
     image: asset('images/product-groundnut.jpg'),
     body: 'Quality-graded groundnut, cleaned and packed to order for export.',
   },
+  {
+    title: 'Dried Red Chillies',
+    image: asset('images/product-chillies.jpg'),
+    body: 'Sun-dried red chillies graded for colour and pungency, cleaned and packed to order.',
+  },
+  {
+    title: 'Red Onions',
+    image: asset('images/product-onions.jpg'),
+    body: 'Firm, export-grade red onions sourced fresh and packed to buyer specification.',
+  },
+  {
+    title: 'Moringa (Drumstick)',
+    image: asset('images/product-moringa.jpg'),
+    body: 'Fresh moringa pods sourced and packed to order for export.',
+  },
+  {
+    title: 'Coconut',
+    image: asset('images/product-coconut.jpg'),
+    body: 'Fresh whole coconuts, sorted and packed to meet export quality standards.',
+  },
+  {
+    title: 'Spices',
+    image: asset('images/product-spices.jpg'),
+    body: 'Whole and ground Indian spices sourced and packed to order for export.',
+  },
+  {
+    title: 'Cotton Fabric',
+    image: asset('images/product-cotton-fabric.jpg'),
+    body: 'Woven cotton fabric in a range of colours and patterns, sourced from local mills.',
+  },
 ]
 
 export default function Products() {
