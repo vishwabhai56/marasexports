@@ -57,7 +57,7 @@ export default function Footer() {
       </div>
 
       <div className="container-px mx-auto flex max-w-7xl flex-col gap-2 border-t border-white/10 py-6 text-xs text-white/40 md:flex-row md:items-center md:justify-between">
-        <span>&copy; {new Date().getFullYear()} MARA&rsquo;s Overseas Exports &amp; Co. All rights reserved.</span>
+        <span>&copy; {new Date().getFullYear()} MARA&rsquo;s Overseas Exports. All rights reserved.</span>
         <span className="font-mono">GSTIN: 33ACHFM9834F1Z2</span>
       </div>
     </footer>

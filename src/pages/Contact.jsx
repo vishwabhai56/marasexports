@@ -150,7 +150,7 @@ export default function Contact() {
           <div>
             <p className="eyebrow mb-5">Registered Office</p>
             <div className="py-2">
-              <h3 className="font-display text-lg font-semibold text-navy">MARA&rsquo;s Overseas Exports &amp; Co</h3>
+              <h3 className="font-display text-lg font-semibold text-navy">MARA&rsquo;s Overseas Exports</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate">
                 No. 62, Vasantham Avenue, Thirumal Nagar,<br />
                 Palayamkottai, Tirunelveli &ndash; 627007,<br />

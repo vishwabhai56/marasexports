@@ -14,10 +14,16 @@ export default function About() {
             An overseas export house built around fresh Indian produce.
           </h1>
           <p className="mt-6 max-w-xl text-white/60">
-            MARA&rsquo;s Overseas Exports &amp; Co is based in Tirunelveli, Tamil Nadu, sourcing
+            MARA&rsquo;s Overseas Exports is based in Tirunelveli, Tamil Nadu, sourcing
             and exporting fresh vegetables, fresh fruits, and select agricultural produce to
             buyers overseas.
           </p>
+          <blockquote className="mt-8 max-w-xl border-l-2 border-gold pl-5">
+            <p className="font-display text-lg italic leading-relaxed text-white/85">
+              &ldquo;Founded and run by two young entrepreneurs from Tirunelveli, driven to bring
+              fresh Indian produce to the world.&rdquo;
+            </p>
+          </blockquote>
         </div>
       </section>
 

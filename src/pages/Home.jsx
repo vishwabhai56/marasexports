@@ -9,10 +9,12 @@ const products = [
   { slug: 'onions', title: 'Red Onions', image: asset('images/product-onions.jpg') },
   { slug: 'moringa', title: 'Moringa (Drumstick)', image: asset('images/product-moringa.jpg') },
   { slug: 'coconut', title: 'Coconut', image: asset('images/product-coconut.jpg') },
-  { slug: 'green-leaf-sifter', title: 'Green Leaf Sifter', image: asset('images/product-leaf-plates.jpg') },
-  { slug: 'palmyra-fibre', title: 'Palmyra Fibre', image: asset('images/product-palmyra-fibre.jpg') },
   { slug: 'groundnut', title: 'Groundnut', image: asset('images/product-groundnut.jpg') },
   { slug: 'cotton-fabric', title: 'Cotton Fabric', image: asset('images/product-cotton-fabric.jpg') },
+  { slug: 'jaggery', title: 'Palm Jaggery', image: asset('images/product-jaggery.jpg') },
+  { slug: 'ghee', title: 'Pure Cow Ghee', image: asset('images/product-ghee.jpg') },
+  { slug: 'dried-fish', title: 'Dried Fish', image: asset('images/product-dried-fish.jpg') },
+  { slug: 'rice', title: 'Rice', image: asset('images/product-rice.jpg') },
 ]
 
 const process = [
@@ -41,7 +43,7 @@ export default function Home() {
               <span className="text-gold"> shipped to your port.</span>
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-white/70 md:text-lg">
-              MARA&rsquo;s Overseas Exports &amp; Co exports fresh vegetables, fresh fruits, and
+              MARA&rsquo;s Overseas Exports exports fresh vegetables, fresh fruits, and
               select agricultural produce from Tamil Nadu to buyers around the world.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
@@ -72,12 +74,12 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 flex flex-wrap justify-center gap-6">
             {products.map((p) => (
               <NavLink
                 key={p.slug}
                 to="/products"
-                className="group relative block h-64 overflow-hidden rounded-lg"
+                className="group relative block h-64 w-full overflow-hidden rounded-lg sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
               >
                 <img
                   src={p.image}

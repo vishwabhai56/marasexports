@@ -13,16 +13,6 @@ const products = [
     body: 'Seasonal fresh fruit sourced directly from growers, sorted and packed to meet export quality standards.',
   },
   {
-    title: 'Green Leaf Sifter',
-    image: asset('images/product-leaf-plates.jpg'),
-    body: 'Natural leaf-based sifting and serving products, made from locally sourced leaves.',
-  },
-  {
-    title: 'Palmyra Fibre',
-    image: asset('images/product-palmyra-fibre.jpg'),
-    body: 'Palmyra palm fibre for brooms and allied products, sourced from local processors.',
-  },
-  {
     title: 'Groundnut',
     image: asset('images/product-groundnut.jpg'),
     body: 'Quality-graded groundnut, cleaned and packed to order for export.',
@@ -57,6 +47,26 @@ const products = [
     image: asset('images/product-cotton-fabric.jpg'),
     body: 'Woven cotton fabric in a range of colours and patterns, sourced from local mills.',
   },
+  {
+    title: 'Palm Jaggery',
+    image: asset('images/product-jaggery.jpg'),
+    body: 'Traditional palm jaggery, set and packed the way it’s made locally, with no added chemicals.',
+  },
+  {
+    title: 'Pure Cow Ghee',
+    image: asset('images/product-ghee.jpg'),
+    body: 'Pure cow ghee, packed to order for export.',
+  },
+  {
+    title: 'Dried Fish',
+    image: asset('images/product-dried-fish.jpg'),
+    body: 'Sun-dried fish, cleaned and packed to order for export.',
+  },
+  {
+    title: 'Rice',
+    image: asset('images/product-rice.jpg'),
+    body: 'Quality-graded rice, cleaned and packed to order for export.',
+  },
 ]
 
 export default function Products() {
@@ -77,9 +87,12 @@ export default function Products() {
 
       <section className="bg-paper py-24">
         <div className="container-px mx-auto max-w-7xl">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-wrap justify-center gap-8">
             {products.map((p) => (
-              <div key={p.title} className="flex flex-col overflow-hidden rounded-lg border border-ink/8 bg-white">
+              <div
+                key={p.title}
+                className="flex w-full flex-col overflow-hidden rounded-lg border border-ink/8 bg-white sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.334rem)]"
+              >
                 <img src={p.image} alt={p.title} className="h-52 w-full object-cover" />
                 <div className="flex flex-1 flex-col p-7">
                   <h3 className="font-display text-xl font-semibold text-navy">{p.title}</h3>
